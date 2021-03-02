@@ -1,0 +1,45 @@
+.features {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.features__text {
+  width: 1060px;
+
+  margin: 0 auto 81px auto;
+}
+
+.features__list {
+  @include flexCenter();
+}
+
+.features__item {
+  width: 380px;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.features__image {
+  fill: $color-accent;
+  margin-bottom: 26px;
+}
+
+.features__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.188;
+
+  color: $color-title-main;
+}
+
+.features__text-secondary {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 16px;
+  line-height: 1.4;
+}

@@ -1,0 +1,19 @@
+.navigation {
+  @include flexCenter();
+}
+.navigation__list {
+  @include flexCenter();
+}
+
+.navigation__item {
+  font-size: 16px;
+  line-height: 19px;
+
+  &:not(:last-child) {
+    margin-right: 36px;
+  }
+}
+
+.navigation__link {
+  color: inherit;
+}

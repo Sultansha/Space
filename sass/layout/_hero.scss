@@ -1,0 +1,26 @@
+.hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 190px;
+  overflow: hidden;
+}
+
+.hero__title {
+  margin-bottom: 0 0 15px 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: $color-light-main;
+}
+
+.hero__thumb {
+  width: 550px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 50px;
+}

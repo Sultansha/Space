@@ -1,0 +1,25 @@
+.button {
+  @include flexCenter();
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1.188;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid $color-border;
+  color: inherit;
+
+  border-radius: 68px;
+  &--no-border {
+    width: 130px;
+    border: none;
+    padding: 11px 40px;
+  }
+  &--accent {
+    width: 238px;
+    height: 50px;
+    background-color: $color-accent;
+    color: $color-light-main;
+    border: $color-accent;
+  }
+}

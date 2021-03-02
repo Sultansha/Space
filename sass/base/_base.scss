@@ -1,0 +1,27 @@
+body {
+  font-family: $font-family-main;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+
+  background-color: $color-light-main;
+
+  background-image: url('../../images/bgi/background-top.svg'),
+    url('../../images/bgi/background-bottom.svg');
+  background-size: 1600px, 1600px;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+
+  color: $color-text-main;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

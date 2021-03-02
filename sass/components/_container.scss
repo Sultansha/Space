@@ -1,0 +1,14 @@
+.container {
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  header & {
+    @include flexCenter($jc: space-between);
+  }
+  .features & {
+    text-align: center;
+  }
+}
