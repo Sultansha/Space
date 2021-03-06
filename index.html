@@ -3,378 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analytics-Landing Page</title>
+    <title>Space Dreams</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navigation">
-                <a class="logo link" href="#">
-                    <ul class="logo__list list">
-                        <li class="logo__item logo__image logo__image--accent">
-                            <svg class="logo__icon" width="40" height="40">
-                               <use href="./images/symbol-defs.svg#icon-logo-image"></use>
+    <div class="bgi-top">
+        <!-- <div class="container__bgi"> -->
+           <!--  <span class="bgi-icon"></span> -->
+            <header class="header">
+            
+                <div class="container">
+                    <div class="header__thumb">
+                        <a class="logo" href="#">
+                            <svg class="logo__icon" width="36" height="36">
+                                <use href="./images/symbol-defs.svg#icon-Logo"></use>
                             </svg>
+                        </a>
+                        <nav class="navigation">
+                            <ul class="navigation__list list">
+                                <li class="navigation__item">
+                                    <a class="navigation__link link" href="#">About</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link link" href="#">Gallery</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link link" href="#">Pricing</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link link" href="#">FAQ</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link link" href="#">Benefits</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <ul class="authorization list">
+                        <li class="authorization__item">
+                            <button type="button" class="button button--transparent">SIgn In</button>
                         </li>
-                        <li class="logo__item logo__text logo__text--accent">
-                            <svg width="120" height="20">
-                                <use href="./images/symbol-defs.svg#icon-logo-text"></use>>
-                            </svg>
+                        <li class="authorization__item">
+                            <button type="button" class="button button--accent">Sign Up</button>
                         </li>
                     </ul>
-                </a>
-                <ul class="navigation__list list">
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Products
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            FAQ
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="authorization list">
-                <li class="autorization__item">
-                    <button class="button button--no-border" type="button">
-                        Sign in
-                    </button>
-                </li>
-                <li class="autorization__item">
-                    <button class="button" type="button">
-                        Sign Up
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__thumb">
-                    <h1 class="hero__title">
-                        Monitor your business on real-time dashboard
-                    </h1>
-                    <p class="hero__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat
-                        est.
-                        Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
-                    </p>
-                    <button class="button button--accent" type="button">
-                        Try for free
-                    </button>
-                </div>           
-                <ul class="monitoring__list list">
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-1.jpg 1x, ./images/Chart/chart-1@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-2.jpg 1x, ./images/Chart/chart-2@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-3.jpg 1x, ./images/Chart/chart-3@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-4.jpg 1x, ./images/Chart/chart-4@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-5.jpg 1x, ./images/Chart/chart-5@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-6.jpg 1x, ./images/Chart/chart-6@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-7.jpg 1x, ./images/Chart/chart-7@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-8.jpg 1x, ./images/Chart/chart-8@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                    <li class="monitoring__item">
-                        <a class="monitoring__link" href="#">
-                            <img class="monitoring__image" srcset="./images/Chart/chart-9.jpg 1x, ./images/Chart/chart-9@2x 2x" alt="Chart">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="features">
-            <div class="container">
-                <h2 class="title-main">
-                    Main Features
-                </h2>
-                <p class="features__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est.
-                    Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel
-                    in nam malesuada.
-                </p>
-                <ul class="features__list list">
-                    <li class="features__item">
-                        <svg class="features__image" width="60" height="60">
-                            <use href="./images/symbol-defs.svg#icon-features-icon-1"></use>
-                        </svg>
-                        <h3 class="features__title">
-                            Monitoring 24/7
-                        </h3>
-                        <p class="features__text-secondary">
-                            Lorem ipsum dolor sit amet, consectetur adipis
-                            cing elit. Elementum nisi aliquet volutpat.
-                        </p>
-                    </li>
-                    <li class="features__item">
-                        <svg class="features__image" width="60" height="60">
-                            <use href="./images/symbol-defs.svg#icon-features-icon-2"></use>
-                        </svg>
-                        <h3 class="features__title">
-                            Widget System
-                        </h3>
-                        <p class="features__text-secondary">
-                            Sapien in etiam vitae nibh nunc mattis imperdiet
-                            sed nullam. Vitae et, tortor pulvinar risus pulvinar.
-                        </p>
-                    </li>
-                    <li class="features__item">
-                        <svg class="features__image" width="60" height="60">
-                            <use href="./images/symbol-defs.svg#icon-features-icon-3"></use>
-                        </svg>
-                        <h3 class="features__title">
-                            Best Performance
-                        </h3>
-                        <p class="features__text-secondary">
-                            Lorem ipsum dolor sit amet, consectetur adipis
-                            cing elit. Elementum nisi aliquet volutpat.
-                        </p>
-                    </li>
-                </ul>
-            </div>        
-        </section>
-        <section class="examples">
-            <div class="container">
-                <ul class="examples__list list">
-                    <li class="examples__item">
-                        <h2 class="title-main">
-                            Automated Reports
-                            & Widget Alerts
-                        </h2>
-                        <p class="examples__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
-                            volutpat est.
-                            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
-                            amet.
-                        </p>
-                        <img class="examples__image" src="" alt="Chart">
-                    </li>
-                    <li class="examples__item">
-                        <h2 class="title-main">
-                            Fully customizable to address your needs
-                        </h2>
-                        <p class="examples__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
-                            volutpat est.
-                            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
-                            amet.
-                        </p>
-                        <img class="examples__image" src="" alt="Chart">
-                    </li>
-                    <li class="examples__item">
-                        <h2 class="title-main">
-                            Pre-built Dashboard Templates
-                        </h2>
-                        <p class="examples__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
-                            volutpat est.
-                            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
-                            amet.
-                        </p>
-                        <img class="examples__image" src="" alt="Chart">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="plans">
-            <div class="container">
-                <h2 class="title-main">
-                    Pricing Plans
-                </h2>
-                <p class="plans__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
-                    volutpat pellentesque volutpat est.
-                </p>
-                <ul class="plans__list list">
-                    <li class="plans__item">
-                        <h3 class="plans__title">
-                            Starter
-                        </h3>
-                        <p class="plans__volume">
-                            up to 3 users
-                        </p>
-                        <p class="plans__currency">
-                            $
-                        </p>
-                        <p class="plans__price">
-                            29
-                        </p>
-                        <p class="plants__period">
-                            per month
-                        </p>
-                        <button class="button" type="button">
-                            Order
-                        </button>
-                    </li>
-                    <li class="plans__item">
-                        <h3 class="plans__title">
-                            Standard
-                        </h3>
-                        <p class="plans__volume">
-                            up to 20 users
-                        </p>
-                        <p class="plans__currency">
-                            $
-                        </p>
-                        <p class="plans__price">
-                            99
-                        </p>
-                        <p class="plants__period">
-                            per month
-                        </p>
-                        <button class="button" type="button">
-                            Order
-                        </button>
-                    </li>
-                    <li class="plans__item">
-                        <h3 class="plans__title">
-                            Premium
-                        </h3>
-                        <p class="plans__volume">
-                            up to 200 users
-                        </p>
-                        <p class="plans__currency">
-                            $
-                        </p>
-                        <p class="plans__price">
-                            299
-                        </p>
-                        <p class="plants__period">
-                            per month
-                        </p>
-                        <button class="button" type="button">
-                            Order
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <a class="logo link" href="#">
-                <ul class="logo__list list">
-                    <li class="logo__image">
-                        <svg class="logo__icon">
-                            <use>
-                            </use>
-                        </svg>
-                    </li>
-                    <li class="logo__text">
-                        <svg class="logo__text">
-                            <use>
-                            </use>
-                        </svg>
-                    </li>
-                </ul>
-            </a>
-            <nav class="navigation">
-                <ul class="navigation__list list">
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Product
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Pricing Plans
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            FAQ
-                        </a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link link" href="#">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="navigation__item navigation__item--none">
-                        <a class="navigation__link link" href="#">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="social list">
-                <li class="social__item">
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use>
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use>
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use>
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+                </div>
+            </header>
+
+            <!--// ======START HERO========= //-->
+
+            <section class="hero">
+                <div class="hero__bgi">
+                    <div class="container">
+                        <!-- <div class="bgi-image"></div> -->
+                        <div class="hero__thumb">
+                            <h1 class="hero__title">
+                                Many reasons to get up and start to get back in the business
+                            </h1>
+                        
+                            <p class="hero__text">
+                                The harder you work for something, the greater you’ll feel when you achieve it.
+                            </p>
+                            <ul class="details list">
+                                <li class="details__item">
+                                    <button type="button" class="button button--accent">Learn More</button>
+                                </li>
+                                <li class="details__item">
+                                    <button type="button" class="button button--transparent">Demo</button>
+                                </li>
+                            </ul>
+                            <div class="video video--margin">
+                                <video class="video__item" poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
+                                    width="140" height="80" controls preload="metadata">
+                                    <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
+                                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+                                    <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
+                                </video>
+                                <div class="video__item">
+                                    <p class="video__text">
+                                        The harder you work for something, the greater you’ll feel when you achieve it.
+                                    </p>
+                                    <p class="video__plea">
+                                        Watch preview
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="features__bgi">
+                    <div class="container">
+                        <ul class="technologies list">
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="117" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-1"></use>
+                                </svg>
+                            </li>
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="117" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-2"></use>
+                                </svg>
+                            </li>
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="92" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-3"></use>
+                                </svg>
+                            </li>
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="105" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-4"></use>
+                                </svg>
+                            </li>
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="55" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-5"></use>
+                                </svg>
+                            </li>
+                            <li class="technologies__item">
+                                <svg class="technologies__icon" width="117" height="25">
+                                    <use href="./images/symbol-defs.svg#icon-technologies-6"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <h2 class="title-main">Your choice</h2>
+                        <p class="features__text-main">There are many reasons to get down and start to get depressed about your
+                            situation.</p>
+                        <ul class="features__list list">
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-Flip-horizontal"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate add.</p>
+                    
+                            </li>
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-Airpods"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate
+                                    add.</p>                    
+                            </li>
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-LTE"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate
+                                    add.</p>
+                    
+                            </li>
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-Thunder-move"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate
+                                    add.</p>
+                    
+                            </li>
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-Attachment"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate
+                                    add.</p>
+                    
+                            </li>
+                            <li class="features__item list">
+                                <div class="features__thumb">
+                                    <svg class="features__icon" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-Bulb"></use>
+                                    </svg>
+                                    <h3 class="features__title">Ecstatic elegance</h3>
+                                </div>
+                                <p class="features__text">Article nor prepare chicken you him now. Shy merits say advice ten before
+                                    lovers innate
+                                    add.</p>                    
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        <!-- </div> -->       
+    </div>
+    <div class="bgi-mid">
+
+    </div>
 </body>
 </html>

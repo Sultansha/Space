@@ -1,0 +1,10 @@
+.technologies {
+  @include flexCenter();
+  margin: -36px -36px 63px -36px;
+  &__item {
+    margin: 36px;
+  }
+  &__icon {
+    fill: $color-text-main;
+  }
+}

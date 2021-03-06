@@ -1,25 +1,32 @@
 .button {
-  @include flexCenter();
-  width: 160px;
-  height: 40px;
-  font-size: 16px;
-  line-height: 1.188;
-  padding: 10px;
-  background-color: transparent;
-  border: 1px solid $color-border;
-  color: inherit;
+  font-family: $ff-button;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid $color-accent;
 
-  border-radius: 68px;
-  &--no-border {
-    width: 130px;
-    border: none;
-    padding: 11px 40px;
+  &--transparent {
+    background-color: transparent;
+    color: $color-accent;
+
+    border-radius: 4px;
   }
+
   &--accent {
-    width: 238px;
-    height: 50px;
-    background-color: $color-accent;
     color: $color-light-main;
-    border: $color-accent;
+    background-color: $color-accent;
+    border-radius: 3px;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  }
+
+  .authorization & {
+    width: 112px;
+    height: 36px;
+  }
+  .details & {
+    width: 157px;
+    height: 46px;
   }
 }

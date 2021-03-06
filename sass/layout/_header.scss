@@ -1,8 +1,8 @@
 .header {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  padding-top: 79px;
+  padding-bottom: 79px;
 
-.authorization {
-  @include flexCenter;
+  &__thumb {
+    @include flexCenter($jc: space-between);
+  }
 }

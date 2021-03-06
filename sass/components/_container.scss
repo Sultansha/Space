@@ -1,14 +1,15 @@
 .container {
-  width: 1200px;
+  width: 1120px;
   padding-left: 10px;
   padding-right: 10px;
   margin-right: auto;
   margin-left: auto;
 
-  header & {
-    @include flexCenter($jc: space-between);
+  .bgi-color & {
+    position: relative;
   }
-  .features & {
-    text-align: center;
+
+  .header & {
+    @include flexCenter($jc: space-between);
   }
 }

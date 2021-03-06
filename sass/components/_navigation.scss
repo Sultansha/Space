@@ -1,19 +1,26 @@
 .navigation {
-  @include flexCenter();
-}
-.navigation__list {
-  @include flexCenter();
-}
+  font-family: $ff-main;
+  color: $color-navigation;
 
-.navigation__item {
-  font-size: 16px;
-  line-height: 19px;
-
-  &:not(:last-child) {
-    margin-right: 36px;
+  &__list {
+    @include flexCenter($jc: space-between);
+    margin: -10px;
   }
-}
 
-.navigation__link {
-  color: inherit;
+  &__item {
+    color: inherit;
+    margin: 10px;
+  }
+
+  &__link {
+    display: block;
+    color: inherit;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.667;
+    letter-spacing: 2px;
+  }
 }

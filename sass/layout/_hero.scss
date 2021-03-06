@@ -1,26 +1,47 @@
 .hero {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 190px;
-  overflow: hidden;
+  //padding-bottom: 103px;
+  margin-bottom: -103px;
+
+  &__bgi {
+    width: 1440px;
+    height: auto;
+    padding-top: 56px;
+
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../../images/bgi/man.svg);
+
+    background-position: top 0 right 0;
+
+    background-repeat: no-repeat;
+  }
+
+  &__thumb {
+    width: 531px;
+  }
+  &__title {
+    margin-bottom: 19px;
+
+    font-family: $ff-title;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.136;
+    color: $color-title-main;
+  }
+  &__text {
+    margin-bottom: 62px;
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color: $color-text-main;
+  }
 }
 
-.hero__title {
-  margin-bottom: 0 0 15px 0;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: $color-light-main;
-}
-
-.hero__thumb {
-  width: 550px;
-}
-
-.hero__text {
-  margin-top: 0;
-  margin-bottom: 50px;
+.details {
+  @include flexCenter($jc: start);
+  margin: -10px -10px 50px -10px;
+  &__item {
+    margin: 10px;
+  }
 }

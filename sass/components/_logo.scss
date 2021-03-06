@@ -1,20 +1,15 @@
 .logo {
   display: block;
-  margin-right: 82px;
-}
-.logo__list {
+  width: 36px;
+  height: 36px;
+  margin-right: 44px;
+
   @include flexCenter();
-}
+  background-color: $color-accent;
+  color: $color-light-main;
+  border-radius: 50%;
 
-.logo__item {
-  line-height: 0;
-}
-
-.logo__image {
-  margin-right: 13px;
-  fill: $color-accent;
-}
-
-.logo__text {
-  fill: $color-light-main;
+  &__icon {
+    fill: currentColor;
+  }
 }
