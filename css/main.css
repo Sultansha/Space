@@ -57,14 +57,14 @@ h6 {
   left: 540px;
   width: 724px;
   height: 580px;
-  background-image: url(../../images/bgi/man.svg);
+  background-image: url(../images/bgi/man.svg);
   background-position: top 0 center;
   background-repeat: no-repeat;
 }
 
 .bgi-left {
-  background-image: url(../../images/bgi/meteorite-2.svg);
-  width: 1600px;
+  background-image: url(../images/bgi/meteorite-2.svg);
+  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   background-position: left bottom 100px;
@@ -72,20 +72,20 @@ h6 {
 }
 
 .bgi-right {
-  width: 1800px;
+  max-width: 1800px;
   margin-right: auto;
   margin-left: auto;
   height: 477px;
-  background-image: url(../../images/bgi/meteorite-4.svg);
+  background-image: url(../images/bgi/meteorite-4.svg);
   background-position: right 250px top;
   background-repeat: no-repeat;
 }
 
 .bgi-help {
-  width: 2200px;
+  max-width: 2200px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../../images/bgi/meteorite-5.svg);
+  background-image: url(../images/bgi/meteorite-5.svg);
   background-position: right 280px top;
   background-repeat: no-repeat;
 }
@@ -93,7 +93,7 @@ h6 {
 .bgi-footer {
   padding-top: 46px;
   padding-right: 205px;
-  width: 2041px;
+  max-width: 2041px;
   margin-right: auto;
   margin-left: auto;
   background-image: url(../images/bgi/meteorite-7.svg);
@@ -128,13 +128,13 @@ h6 {
 }
 
 .hero__bgi {
-  width: 1440px;
+  max-width: 1440px;
   height: auto;
   padding-top: 56px;
   padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../../images/bgi/man.svg);
+  background-image: url(../images/bgi/man.svg);
   background-position: top 0 right 0;
   background-repeat: no-repeat;
 }
@@ -192,7 +192,7 @@ h6 {
   padding-top: 203px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../../images/bgi/meteorite-1.svg);
+  background-image: url(../images/bgi/meteorite-1.svg);
   background-position: left 0 bottom 50px;
   background-repeat: no-repeat;
 }
@@ -308,7 +308,7 @@ h6 {
 .CTA {
   margin-top: 169px;
   height: 555px;
-  background-image: url(../../images/bgi/meteorite-3.svg);
+  background-image: url(../images/bgi/meteorite-3.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -406,7 +406,7 @@ h6 {
 }
 
 .feedback__bgi {
-  width: 2030px;
+  max-width: 2030px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
@@ -646,6 +646,7 @@ h6 {
   border: none;
   position: relative;
   top: -1px;
+  left: -10px;
 }
 
 .video {

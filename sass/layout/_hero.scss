@@ -3,14 +3,14 @@
   margin-bottom: -163px;
 
   &__bgi {
-    width: 1440px;
+    max-width: 1440px;
     height: auto;
     padding-top: 56px;
     padding-bottom: 60px;
 
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../../images/bgi/man.svg);
+    background-image: url(../images/bgi/man.svg);
 
     background-position: top 0 right 0;
 
