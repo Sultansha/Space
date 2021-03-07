@@ -1,9 +1,29 @@
 .title-main {
-  text-align: center;
-  margin-bottom: 13px;
   font-family: $ff-title;
   font-weight: 700;
   font-size: 42px;
   line-height: 1.19;
   color: $color-title-main;
+
+  .features & {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  .content & {
+    margin-bottom: 32px;
+  }
+
+  .metrics & {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .CTA & {
+    text-align: center;
+    margin-bottom: 46px;
+  }
+
+  .invest & {
+    margin-bottom: 32px;
+  }
 }

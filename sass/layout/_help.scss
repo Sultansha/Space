@@ -1,0 +1,59 @@
+.help {
+  &__image {
+    position: relative;
+    left: -50px;
+  }
+  &__thumb {
+    width: 512px;
+  }
+
+  &__title {
+    font-family: $ff-title;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.231;
+    letter-spacing: 0.325px;
+    color: $color-title-main;
+    margin-bottom: 32px;
+  }
+  &__text {
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.333;
+    letter-spacing: 0.2px;
+    color: $color-text-main;
+    margin-bottom: 48px;
+  }
+
+  &__list {
+    @include flexCenter($jc: space-between);
+  }
+
+  &__item {
+    width: 224px;
+  }
+  &__icon {
+    fill: $color-title-main;
+    margin-bottom: 16px;
+  }
+  &__feature {
+    font-family: $ff-title;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    color: $color-title-main;
+    margin-bottom: 8px;
+  }
+
+  &__description {
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.333;
+    letter-spacing: 0.2px;
+    color: $color-text-main;
+  }
+}

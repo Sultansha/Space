@@ -29,4 +29,33 @@
     width: 157px;
     height: 46px;
   }
+  .content & {
+    width: 155px;
+    height: 48px;
+  }
+
+  .CTA & {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 164px;
+    height: 54px;
+  }
+
+  .invest & {
+    width: 155px;
+    height: 54px;
+  }
+  .feedback & {
+    display: inline;
+    width: 128px;
+    height: 56px;
+    color: $color-light-main;
+    background-color: $color-accent;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+
+    position: relative;
+    top: -1px;
+  }
 }

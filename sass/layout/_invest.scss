@@ -1,0 +1,22 @@
+.invest {
+  padding-top: 59px;
+  padding-bottom: 93px;
+
+  &__image {
+    position: relative;
+    right: -20px;
+  }
+
+  &__thumb {
+    width: 470px;
+  }
+  &__text {
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.867;
+    letter-spacing: 0.5px;
+    color: $color-text-main;
+    margin-bottom: 46px;
+  }
+}

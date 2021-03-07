@@ -1,0 +1,35 @@
+.metrics {
+  padding-top: 46px;
+  padding-top: 69px;
+
+  &__text {
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.333;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color-text-main;
+    margin-bottom: 48px;
+  }
+  &__list {
+    @include flexCenter($jc: space-between);
+  }
+  &__item {
+    width: 291px;
+  }
+  &__title {
+    margin-bottom: 16px;
+  }
+  &__way {
+    font-family: $ff-main;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.333;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color-text-main;
+  }
+}

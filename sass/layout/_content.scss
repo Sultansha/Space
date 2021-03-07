@@ -1,0 +1,17 @@
+.content {
+  padding-top: 157px;
+  padding-bottom: 151px;
+
+  &__thumb {
+    width: 470px;
+  }
+  &__text {
+    margin-bottom: 43px;
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.867;
+    letter-spacing: 0.5px;
+    color: $color-text-main;
+  }
+}

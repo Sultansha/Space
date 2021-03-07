@@ -12,4 +12,17 @@
   .header & {
     @include flexCenter($jc: space-between);
   }
+
+  .content & {
+    @include flexCenter($jc: space-between);
+  }
+  .invest & {
+    @include flexCenter($jc: space-between);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .help & {
+    @include flexCenter($jc: space-between);
+  }
 }

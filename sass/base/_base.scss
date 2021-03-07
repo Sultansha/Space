@@ -1,20 +1,6 @@
 body {
   background-color: $color-background;
-
-  /* font-family: $font-family-main;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-
-  background-color: $color-light-main;
-
-  background-image: url('../../images/bgi/background-top.svg'),
-    url('../../images/bgi/background-bottom.svg');
-  background-size: 1600px, 1600px;
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
-
-  color: $color-text-main; */
+  background-image: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
 }
 
 a,
@@ -26,4 +12,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.color-accent {
+  color: $color-accent;
 }

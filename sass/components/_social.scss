@@ -1,0 +1,13 @@
+.social {
+  @include flexCenter($jc: space-between);
+  width: 152px;
+
+  &__link {
+    @include flexCenter();
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(246, 246, 246, 0.1);
+    fill: $color-light-main;
+  }
+}

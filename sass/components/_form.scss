@@ -1,0 +1,36 @@
+.form {
+  width: 416px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+
+  &__label {
+    display: inline;
+    font-family: $ff-button;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    text-align: center;
+    color: #95a1bb;
+  }
+  &__input {
+    padding: 18px 16px;
+    width: 188px;
+    height: 56px;
+    margin-top: 23px;
+    background-color: rgba(246, 246, 246, 0.1);
+    border-radius: 5px;
+    border: none;
+  }
+}
+
+.form__input::placeholder {
+  font-family: $ff-title;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.429;
+  letter-spacing: 0.2px;
+  color: $color-light-main;
+  opacity: 0.2;
+}

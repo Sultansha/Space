@@ -1,0 +1,90 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M673.451 597.333h179.883v-512c-141.385 0-256 114.615-256 256v0 177.977l-263.31-263.31c-30.882 30.884-49.983 73.549-49.983 120.676s19.101 89.791 49.983 120.676l219.705 219.705 119.751-119.723z",
+          "M184.889 512c-78.547 0-142.222 63.675-142.222 142.222v0 99.556c0 78.547 63.675 142.222 142.222 142.222v0h654.222c78.547 0 142.222-63.675 142.222-142.222v0-99.556c0-78.547-63.675-142.222-142.222-142.222v0h-654.222zM896 704c0 35.346-28.654 64-64 64s-64-28.654-64-64v0c0-35.346 28.654-64 64-64s64 28.654 64 64v0z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(153, 239, 208)",
+            "opacity": 0.3
+          },
+          {
+            "fill": "rgb(153, 239, 208)"
+          }
+        ],
+        "isMulticolor": true,
+        "isMulticolor2": true,
+        "grid": 0,
+        "tags": [
+          "Swiss-knife"
+        ],
+        "colorPermutations": {
+          "11321181701152164175115323920811919415012421537412552552551293210313343541811101691991151291": [
+            {
+              "f": 9
+            },
+            {
+              "f": 9
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(153, 239, 208)",
+          "opacity": 0.3
+        },
+        {
+          "fill": "rgb(153, 239, 208)"
+        }
+      ],
+      "properties": {
+        "order": 32,
+        "id": 20,
+        "name": "Swiss-knife",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
